@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardElevation="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/datezaezda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_medium"
+            android:hint="Введите дату заезда"
+            android:inputType="date"
+            android:text=""
+            android:textColor="@color/text"
+            android:textColorHint="@color/text"
+
+            android:textSize="14dp"
+            app:met_baseColor="@color/black"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/text"
+            app:met_singleLineEllipsis="true"></com.rengwuxian.materialedittext.MaterialEditText>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/dateviezda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_medium"
+            android:hint="Введите дату выезда"
+            android:inputType="date"
+            android:text=""
+            android:textColor="@color/text"
+            android:textColorHint="@color/text"
+
+            android:textSize="14dp"
+            app:met_baseColor="@color/black"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/text"
+            app:met_singleLineEllipsis="true">
+
+        </com.rengwuxian.materialedittext.MaterialEditText>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

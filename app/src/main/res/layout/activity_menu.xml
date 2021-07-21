@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    tools:context=".MainActivity"
+    android:id="@+id/menu_activity">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/montserrat_medium"
+            android:gravity="center"
+            android:text="@string/menu_activity"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/btnReservation"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/button_style"
+            android:fontFamily="@font/montserrat_medium"
+            android:text="Забронировать номер"
+            android:textColor="@color/text"
+            android:textSize="18dp"
+            app:backgroundTint="@color/buttons" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background_style"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnShowRooms"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/button_style"
+                android:fontFamily="@font/montserrat_medium"
+                android:text="Посмотреть номера"
+                android:textColor="@color/text"
+                android:textSize="18dp"
+                app:backgroundTint="@color/buttons" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnShowCategory"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_style"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:text="По категории"
+                    android:textColor="@color/text"
+                    android:textSize="8dp"
+                    app:backgroundTint="@color/buttons" />
+
+                <Button
+                    android:id="@+id/btnShowMoney"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_style"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:text="По стоимости"
+                    android:textColor="@color/text"
+                    android:textSize="8dp"
+                    app:backgroundTint="@color/buttons" />
+
+                <Button
+                    android:id="@+id/btnShowPeople"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_style"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:text="По количеству человек"
+                    android:textColor="@color/text"
+                    android:textSize="8dp"
+                    app:backgroundTint="@color/buttons" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnProfile"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/button_style"
+            android:fontFamily="@font/montserrat_medium"
+            android:text="Профиль"
+            android:textColor="@color/text"
+            android:textSize="18dp"
+            app:backgroundTint="@color/buttons" />
+
+        <Button
+            android:id="@+id/btnMessage"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button_style"
+            android:fontFamily="@font/montserrat_medium"
+            android:text="Обратная связь"
+            android:textColor="@color/text"
+            android:textSize="18dp"
+            app:backgroundTint="@color/buttons" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

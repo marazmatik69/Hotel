@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardElevation="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnLuxe"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/button_style"
+            android:fontFamily="@font/montserrat_medium"
+            android:text="Люкс"
+            android:textColor="@color/text"
+            android:textSize="14dp"
+            app:backgroundTint="@color/buttons" />
+
+        <Button
+            android:id="@+id/btnStudio"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/button_style"
+            android:fontFamily="@font/montserrat_medium"
+            android:text="Студия"
+            android:textColor="@color/text"
+            android:textSize="14dp"
+            app:backgroundTint="@color/buttons" />
+
+        <Button
+            android:id="@+id/btnStandart"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button_style"
+            android:fontFamily="@font/montserrat_medium"
+            android:text="Стандарт"
+            android:textColor="@color/text"
+            android:textSize="14dp"
+            app:backgroundTint="@color/buttons" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

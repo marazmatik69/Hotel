@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">hotel</string>
+    <string name="main_activity">Войдите или зарегистрируйтесь</string>
+    <string name="menu_activity">Добро пожаловать! Что желаете сделать?</string>
+</resources>

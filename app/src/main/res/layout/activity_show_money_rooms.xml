@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_for_list_gradient"
+    tools:context=".Filters.ShowMoneyRooms">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center|center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+            android:gravity="center|center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/labelMoneyStart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="0"
+                android:fontFamily="@font/montserrat_medium"
+                android:gravity="center|center_horizontal"
+                android:text="От:"
+                android:textColor="@color/text"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/valueMonStart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="0"
+                android:fontFamily="@font/montserrat_medium"
+                android:gravity="center|center_horizontal"
+                android:text="TextView"
+                android:textColor="@color/text"
+                android:textSize="14dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+            android:gravity="center|center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/labelMoneyEnd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="0"
+                android:fontFamily="@font/montserrat_medium"
+                android:gravity="center|center_horizontal"
+                android:text="До:"
+                android:textColor="@color/text"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/valueMonEnd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="0"
+                android:fontFamily="@font/montserrat_medium"
+                android:gravity="center|center_horizontal"
+                android:text="TextView"
+                android:textColor="@color/text"
+                android:textSize="14dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/showMoneyRooms"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
